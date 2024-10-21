@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: url('https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+#header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#header-container h1 {
+    color: #fa5834;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+#header-container h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#signUp-container {
+    background-color: #d6e9ff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 30rem;
+    text-align: center;
+}
+
+/* Form elements styling */
+#signUp-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signUp-form label {
+    margin-top: 15px;
+    font-weight: 500;
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+#signUp-form input[type="email"],
+#signUp-form input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #e94560;
+    width: 95%;
+    font-size: 14px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+#signUp-form input[type="email"]:focus,
+#signUp-form input[type="password"]:focus {
+    border-color: #53354a;
+}
+
+#signUp-button {
+    background-color: #e94560;
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+#signup-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+#signup-link a {
+    color: #e94560;
+    text-decoration: none;
+    font-weight: 600;
+}
+#signup-link a:hover {
+    text-decoration: underline;
+}
+#footer-container {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#footer-container span {
+    font-weight: bold;
+    color: #e94560;
+}
